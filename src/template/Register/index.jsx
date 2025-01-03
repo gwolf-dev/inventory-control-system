@@ -1,7 +1,9 @@
+import { AuthTemplateHeader } from '../../components';
+
 function Register() {
   return (
     <div>
-      <h1>Register</h1>
+      <AuthTemplateHeader />
     </div>
   );
 }

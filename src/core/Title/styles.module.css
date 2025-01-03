@@ -1,0 +1,9 @@
+.title {
+  font-size: var(--font-size-32);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-base-09);
+
+  @media (max-width: 576px) {
+    font-size: var(--font-size-24);
+  }
+}

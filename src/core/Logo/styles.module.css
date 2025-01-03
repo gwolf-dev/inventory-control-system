@@ -1,0 +1,10 @@
+.container {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: var(--color-primary-01);
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+}

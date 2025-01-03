@@ -1,7 +1,9 @@
+import { AuthTemplateHeader } from '../../components';
+
 function Login() {
   return (
     <div>
-      <h1>Login</h1>
+      <AuthTemplateHeader />
     </div>
   );
 }

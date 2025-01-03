@@ -1,5 +1,55 @@
+/* 
+  * Mobile breakpoints:
+    md -- 768px
+    sm -- 576px
+*/
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --font-size-32: 2rem;
+  --font-size-24: 1.5rem;
+  --font-size-20: 1.25rem;
+  --font-size-18: 1.125rem;
+  --font-size-16: 1rem;
+  --font-size-14: 0.875rem;
+  --font-size-12: 0.75rem;
+
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --color-base-01: #F2F2F2;
+  --color-base-02: #E6E6E6;
+  --color-base-03: #CCCCCC;
+  --color-base-04: #A6A6A6;
+  --color-base-05: #808080;
+  --color-base-06: #404040;
+  --color-base-07: #262626;
+  --color-base-08: #1A1A1A;
+  --color-base-09: #141414;
+  --color-base-10: #0D0D0D;
+
+  --color-primary-01: #FFEFE5;
+  --color-primary-02: #F2D8C9;
+  --color-primary-03: #DBBAA6;
+  --color-primary-04: #BE957D;
+  --color-primary-05: #A67D64;
+  --color-primary-06: #8C6249;
+  --color-primary-07: #744C34;
+  --color-primary-08: #56341F;
+  --color-primary-09: #361D0F;
+  --color-primary-10: #1D0F06;
+
+
+  padding: 16px;
+}
+
+ul {
+  list-style: none;
 }
